@@ -1,0 +1,11 @@
+getOfficersResponse: |
+  {    "status":200,
+       "body":[
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "Darren Martland",
+                      "rank": "Chief Constable"
+                  }
+       ]
+  }

@@ -12,11 +12,12 @@ import static org.policeproject.env.Env.*;
 public class peopleEndpointSteps extends HttpApi {
 
     public static final String URI = "forces/%s/people";
+    public String policeForce = null;
 
-    @Inject
-    public peopleEndpointSteps(Cucumbers cucumbers) {
-        cucumbers.loadScenarioPropsFromFile("templates/forces/leicestershire/people/properties.yaml");
-    }
+//    @Inject
+//    public peopleEndpointSteps(Cucumbers cucumbers) {
+//
+//    }
 
     @Inject
     private ScenarioProps scenarioProps;
@@ -31,8 +32,8 @@ public class peopleEndpointSteps extends HttpApi {
 
     @Then("we make a get request to police force={} and check officers list response")
     public void getRequest(String policeForce) {
+        cucumbers.loadScenarioPropsFromFile("templates/forces/"+policeForce+"/properties.yaml");
         init(policeForce);
-        setRequestEntity(scenarioProps.get("getOfficersRequest").toString());
         invokeHttpRequestAndCompareResultWith(scenarioProps.get("getOfficersResponse").toString(), 5);
     }
 }

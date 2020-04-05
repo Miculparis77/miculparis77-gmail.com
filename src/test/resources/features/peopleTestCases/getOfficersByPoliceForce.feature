@@ -5,9 +5,9 @@ Feature: police
     Given we make a get request to police force=<policeForce> and check officers list response
 
     Examples:
-      | policeForce       |
-      | leicestershire    |
-#      | bedfordshire      |
-#      | avon-and-somerset |
+      | policeForce    |
+      | leicestershire |
+      | cheshire       |
+      | durham         |
 
 

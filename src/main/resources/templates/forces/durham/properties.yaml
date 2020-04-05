@@ -1,0 +1,35 @@
+getOfficersResponse: |
+  {    "status":200,
+       "body":[
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "Jo Farrell",
+                      "rank": "Chief Constable"
+                  },
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "Dave Orford",
+                      "rank": "Deputy Chief Constable"
+                  },
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "Gary Ridley",
+                      "rank": "Assistant Chief Officer"
+                  },
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "Dale Checksfield",
+                      "rank": "Special Chief Officer"
+                  },
+                  {
+                      "bio": null,
+                      "contact_details": {},
+                      "name": "John Ward",
+                      "rank": "T/Assistant Chief Constable"
+                  }
+        ]
+  }
