@@ -3,7 +3,7 @@
 <suite name="SentinelCucumberTestNgTestSuite" data-provider-thread-count="8">
     <test name="AllTests">
         <packages>
-            <package name="com.oneandone.cucumber.sentinel.*"/>
+            <package name="org.policeproject*"/>
         </packages>
     </test>
 </suite>

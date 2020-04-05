@@ -1,10 +1,8 @@
 package org.policeproject.context;
 
-
-
-import cucumber.runtime.java.guice.ScenarioScoped;
-import io.cucumber.core.api.Scenario;
+import io.cucumber.guice.ScenarioScoped;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 
 @ScenarioScoped

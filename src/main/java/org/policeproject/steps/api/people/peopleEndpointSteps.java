@@ -33,6 +33,6 @@ public class peopleEndpointSteps extends HttpApi {
     public void getRequest(String policeForce) {
         init(policeForce);
         setRequestEntity(scenarioProps.get("getOfficersRequest").toString());
-        invokeHttpRequestAndCompareResultWith(scenarioProps.get("getOfficersResponse").toString());
+        invokeHttpRequestAndCompareResultWith(scenarioProps.get("getOfficersResponse").toString(), 5);
     }
 }

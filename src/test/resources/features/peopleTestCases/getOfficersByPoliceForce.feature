@@ -7,7 +7,7 @@ Feature: police
     Examples:
       | policeForce       |
       | leicestershire    |
-      | bedfordshire      |
-      | avon-and-somerset |
+#      | bedfordshire      |
+#      | avon-and-somerset |
 
 

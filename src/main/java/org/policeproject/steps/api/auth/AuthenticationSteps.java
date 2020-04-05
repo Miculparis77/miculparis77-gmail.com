@@ -1,6 +1,6 @@
 package org.policeproject.steps.api.auth;
 
-import cucumber.runtime.java.guice.ScenarioScoped;
+import io.cucumber.guice.ScenarioScoped;
 import org.policeproject.steps.HttpApi;
 
 @ScenarioScoped

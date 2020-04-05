@@ -1,9 +1,10 @@
 package org.policeproject.context.hooks;
 
 import com.google.inject.Inject;
+import io.cucumber.guice.ScenarioScoped;
 import org.policeproject.context.ScenarioContext;
 import org.policeproject.steps.api.auth.AuthenticationSteps;
-import cucumber.runtime.java.guice.ScenarioScoped;
+
 
 @ScenarioScoped
 public class Authentication {
