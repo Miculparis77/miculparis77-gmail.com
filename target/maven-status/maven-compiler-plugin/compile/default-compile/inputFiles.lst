@@ -1,0 +1,7 @@
+/home/pascu/projects/testprojectapi/src/main/java/org/steps/api/people/peopleEndpointSteps.java
+/home/pascu/projects/testprojectapi/src/main/java/org/context/hooks/Authentication.java
+/home/pascu/projects/testprojectapi/src/main/java/org/context/ScenarioContext.java
+/home/pascu/projects/testprojectapi/src/main/java/org/context/hooks/Cleanup.java
+/home/pascu/projects/testprojectapi/src/main/java/org/steps/HttpApi.java
+/home/pascu/projects/testprojectapi/src/main/java/org/steps/api/auth/AuthenticationSteps.java
+/home/pascu/projects/testprojectapi/src/main/java/org/env/Env.java
